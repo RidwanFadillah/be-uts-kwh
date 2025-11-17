@@ -36,14 +36,6 @@ CREATE TABLE `products` (
   `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
---
--- Dumping data for table `products`
---
-
-INSERT INTO `products` (`id`, `title`, `caption`, `price`, `image_url`, `created_at`) VALUES
-(2, 'Tas', 'Kreasi anak bangsa', 20000, 'https://uts-sampah-images-kwh.s3.amazonaws.com/uploads/1763266967147-kerajinan3.jpg', '2025-11-16 04:22:48');
-
--- --------------------------------------------------------
 
 --
 -- Table structure for table `users`
